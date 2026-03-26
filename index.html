@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arquivo Imperial | Ren Zhen</title>
+    <style>
+        /* PALETA DE CORES SUPREMA */
+        :root {
+            --bg-deep: #050507;
+            --wiki-panel: rgba(26, 26, 32, 0.9);
+            --gold-primary: #d4af37;
+            --gold-glow: rgba(212, 175, 55, 0.5);
+            --border-color: #3a3a42;
+            --text-silver: #e2e2e2;
+            --text-gold: #f1d37e;
+        }
+
+        body {
+            background-color: var(--bg-deep);
+            background-image: radial-gradient(circle at center, #1a1a2e 0%, #050507 100%);
+            color: var(--text-silver);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0; padding: 15px;
+            line-height: 1.7;
+        }
+
+        .wiki-container {
+            max-width: 950px;
+            margin: 20px auto;
+            background: var(--wiki-panel);
+            backdrop-filter: blur(10px); /* Efeito de vidro */
+            border: 1px solid var(--border-color);
+            border-top: 4px solid var(--gold-primary);
+            padding: 40px;
+            box-shadow: 0 10px 50px rgba(0,0,0,0.9);
+        }
+
+        /* INFOBOX AVANÇADA */
+        .infobox {
+            float: right;
+            width: 320px;
+            background: rgba(10, 10, 15, 0.8);
+            border: 2px double var(--gold-primary);
+            margin-left: 25px;
+            margin-bottom: 25px;
+            padding: 5px;
+            box-shadow: 0 0 15px var(--gold-glow);
+        }
+
+        .infobox-title {
+            text-align: center;
+            background: linear-gradient(90deg, transparent, var(--gold-primary), transparent);
+            color: #000;
+            font-weight: bold;
+            padding: 8px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 18px;
+        }
+
+        .infobox-image {
+            width: 100%;
+            height: auto;
+            min-height: 250px;
+            border-bottom: 1px solid var(--gold-primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .infobox-image img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.5s;
+        }
+        
+        .infobox-image img:hover { transform: scale(1.05); }
+
+        .infobox-data {
+            font-size: 13px;
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .infobox-data td { padding: 8px; border-bottom: 1px solid rgba(255,255,255,0.05); }
+        .label { color: var(--gold-primary); font-weight: bold; width: 45%; text-transform: uppercase; font-size: 11px; }
+
+        /* TÍTULOS ESTILO WIKI */
+        h1 { font-family: 'Georgia', serif; font-size: 36px; color: var(--text-gold); border-bottom: 2px solid var(--gold-primary); margin-top: 0; }
+        h2 { font-family: 'Georgia', serif; font-size: 22px; color: var(--gold-primary); border-left: 5px solid var(--gold-primary); padding-left: 15px; margin-top: 40px; background: rgba(212, 175, 55, 0.05); }
+
+        /* TABELA DE STATUS COMPARATIVO */
+        .status-comparison {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+        .status-comparison th { background: #222; color: var(--gold-primary); padding: 10px; border: 1px solid var(--border-color); }
+        .status-comparison td { padding: 10px; border: 1px solid var(--border-color); text-align: center; }
+
+        /* DESTAQUES */
+        .quote-box {
+            font-style: italic;
+            border-left: 3px solid var(--gold-primary);
+            padding: 15px 25px;
+            margin: 25px 0;
+            background: rgba(255,255,255,0.02);
+            color: #ccc;
+        }
+
+        /* CELULAR REPRODUTIBILIDADE */
+        @media (max-width: 768px) {
+            .infobox { float: none; width: 100%; margin-left: 0; }
+            .wiki-container { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="wiki-container">
+    <aside class="infobox">
+        <div class="infobox-title">Ren Zhen</div>
+        <div class="infobox-image">
+             <img src="perfil.jpg" alt="Aguardando Imagem...">
+        </div>
+        <table class="infobox-data">
+            <tr><td class="label">Reino</td><td>Nascimento da Alma</td></tr>
+            <tr><td class="label">Constituição</td><td>Causalidade Eterna</td></tr>
+            <tr><td class="label">Linhagem</td><td>Imperador do Vazio</td></tr>
+            <tr><td class="label">Vontade</td><td>Grau Imperador (Pico)</td></tr>
+            <tr><td class="label">Mundo</td><td>Terra (Setor Primal)</td></tr>
+        </table>
+    </aside>
+
+    <h1>Ren Zhen (任真)</h1>
+    
+    <div class="quote-box">
+        "O destino não é uma linha reta, mas uma teia onde eu sou o tecelão."
+    </div>
+
+    <h2>Visão Geral</h2>
+    <p>
+        <b>Ren Zhen</b> é o Soberano da era atual, reconhecido por romper as correntes da causalidade absoluta. Sua jornada começou no mundo inferior, onde ele desafiou as seitas imortais usando apenas sua inteligência e o controle sobre as leis de causa e efeito.
+    </p>
+
+    <h2>Comparação de Força (Progressão)</h2>
+    <table class="status-comparison">
+        <thead>
+            <tr>
+                <th>Atributo</th>
+                <th>Início da Jornada</th>
+                <th>Estado Atual</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Força Física</b></td>
+                <td>120 kg</td>
+                <td>Poder de Colapsar Planetas</td>
+            </tr>
+            <tr>
+                <td><b>Alma</b></td>
+                <td>Humana Comum</td>
+                <td>Alma Divina Imperecível</td>
+            </tr>
+            <tr>
+                <td><b>Compreensão do Dao</b></td>
+                <td>0.1%</td>
+                <td>99.9% (Lei da Causa)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Técnicas de Combate</h2>
+    <p>As técnicas de Ren Zhen são divididas entre manipulação espacial e temporal através da <b>Lei da Causalidade</b>:</p>
+    <ul>
+        <li><b>Reversão de Dano:</b> Qualquer ferimento causado ao usuário é transferido para a fonte do ataque.</li>
+        <li><b>Prisão do Destino:</b> Congela o oponente em um loop temporal onde ele nunca alcança a "verdade" do seu golpe.</li>
+    </ul>
+
+</div>
+
+</body>
+  </html>
+  
